@@ -1,5 +1,3 @@
-# entrepreneurship-competition-replication
-
 # Replication Project
 
 ## Paper
