@@ -1,0 +1,43 @@
+Competitive choice				
+		(1)	(2)	(3)
+VARIABLES	LABELS	No Control	Controls	Confidence
+				
+1.treatment	Treatment = 1, 1. Treatment	-0.135	-0.176***	-0.091*
+		(0.068)	(0.026)	(0.029)
+1.entre_consistent	Entrepreneur = 1	-0.150*	-0.146**	-0.063**
+		(0.050)	(0.037)	(0.013)
+0b.treatment#0b.entre_consistent		0.000	0.000	0.000
+		(0.000)	(0.000)	(0.000)
+0b.treatment#1o.entre_consistent		0.000	0.000	0.000
+		(0.000)	(0.000)	(0.000)
+1o.treatment#0b.entre_consistent		0.000	0.000	0.000
+		(0.000)	(0.000)	(0.000)
+1.treatment#1.entre_consistent		0.214**	0.236***	0.099**
+		(0.043)	(0.033)	(0.025)
+female	Female		-0.360***	-0.285***
+			(0.031)	(0.040)
+investment_point	Number of points invested		-0.001*	-0.001
+			(0.000)	(0.001)
+married1	Marital status		-0.106	-0.144
+			(0.094)	(0.103)
+education	Education		0.038*	0.043
+			(0.014)	(0.020)
+vocational	Vocational Training		-0.058	-0.060
+			(0.049)	(0.077)
+age	Age		-0.002	0.001
+			(0.002)	(0.001)
+contacts	N of Contacts		0.006	-0.002
+			(0.012)	(0.025)
+area	area		-0.116**	
+			(0.024)	
+guess_value	Confidence			-0.007
+				(0.015)
+Constant	Constant	0.314**	0.752***	0.486**
+		(0.062)	(0.125)	(0.090)
+				
+Observations		299	289	159
+R-squared		0.020	0.226	0.145
+Public + Public*Business p-value		0.189	0.0440	0.732
+Business + Public*Business p-value		0.154	0.0575	0.252
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

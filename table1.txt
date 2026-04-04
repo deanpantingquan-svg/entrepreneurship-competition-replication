@@ -1,0 +1,17 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+	treatment 0		treatment 0		treatment 1		treatment 1	
+	entre_consistent 0		entre_consistent 1		entre_consistent 0		entre_consistent 1	
+VARIABLES	mean	sd	mean	sd	mean	sd	mean	sd
+								
+female	0.67	0.47	0.62	0.49	0.64	0.48	0.60	0.49
+ball_success	3.07	1.52	3.00	1.71	2.87	1.47	2.88	1.65
+guess_value	4.52	1.97	4.45	2.04	4.52	2.52	4.41	1.71
+ball_success_2	3.24	1.53	3.24	1.87	3.00	1.98	3.24	1.80
+investment_point	49.31	34.98	52.04	35.82	47.37	34.58	62.85	35.08
+age	45.83	14.17	47.59	11.17	45.33	14.19	48.33	11.53
+married1	0.86	0.35	0.94	0.23	0.81	0.40	0.92	0.27
+education	2.40	1.44	2.17	1.21	2.64	1.55	2.40	1.26
+vocational	0.46	0.80	0.46	0.86	0.33	0.80	0.39	0.85
+contacts	2.80	1.28	3.13	1.45	3.06	1.66	2.86	1.61
+profit_total1			10,576.78	15,414.42			7,801.50	10,882.02
+								
