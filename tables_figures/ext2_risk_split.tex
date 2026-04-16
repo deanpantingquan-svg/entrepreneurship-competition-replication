@@ -1,0 +1,47 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{Low Risk}&\multicolumn{1}{c}{High Risk}&\multicolumn{1}{c}{Low Risk + Ctrl}&\multicolumn{1}{c}{High Risk + Ctrl}\\
+\midrule
+1. Treatment        &      -0.154         &      -0.103         &      -0.170\sym{*}  &      -0.172         \\
+                    &     (0.106)         &     (0.149)         &     (0.059)         &     (0.148)         \\
+\addlinespace
+Entrepreneur=1      &      -0.191         &      -0.069         &      -0.166\sym{*}  &      -0.069         \\
+                    &     (0.087)         &     (0.145)         &     (0.068)         &     (0.164)         \\
+\addlinespace
+1. Treatment $\times$ Entrepreneur=1&       0.261\sym{**} &       0.139         &       0.242\sym{*}  &       0.197         \\
+                    &     (0.081)         &     (0.178)         &     (0.094)         &     (0.255)         \\
+\addlinespace
+Female              &                     &                     &      -0.349\sym{***}&      -0.393\sym{**} \\
+                    &                     &                     &     (0.039)         &     (0.109)         \\
+\addlinespace
+Marital status      &                     &                     &      -0.116         &      -0.171         \\
+                    &                     &                     &     (0.162)         &     (0.079)         \\
+\addlinespace
+Education           &                     &                     &       0.036\sym{*}  &       0.063         \\
+                    &                     &                     &     (0.012)         &     (0.040)         \\
+\addlinespace
+Vocational Training &                     &                     &      -0.068         &      -0.038         \\
+                    &                     &                     &     (0.029)         &     (0.092)         \\
+\addlinespace
+Age                 &                     &                     &      -0.002         &       0.002         \\
+                    &                     &                     &     (0.003)         &     (0.005)         \\
+\addlinespace
+N of Contacts       &                     &                     &      -0.013         &       0.044         \\
+                    &                     &                     &     (0.029)         &     (0.048)         \\
+\addlinespace
+area                &                     &                     &      -0.110\sym{*}  &      -0.153         \\
+                    &                     &                     &     (0.036)         &     (0.107)         \\
+\addlinespace
+Constant            &       0.340\sym{*}  &       0.261         &       0.833\sym{**} &       0.374         \\
+                    &     (0.107)         &     (0.123)         &     (0.218)         &     (0.373)         \\
+\midrule
+Observations        &         196         &         103         &         191         &          98         \\
+R-squared           &       0.029         &       0.008         &       0.195         &       0.343         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
