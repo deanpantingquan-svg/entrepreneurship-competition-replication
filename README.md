@@ -20,3 +20,4 @@ Balafoutas et al. (2024) – Competitiveness of Entrepreneurs and Salaried Worke
 ## Notes
 
 Code reproduces the main tables and figures from the paper.
+Folder tables_figures contains all the tables and figures from the extension parts.
